@@ -1,5 +1,6 @@
 #include "Withdraw.h"
 #include <iostream>
+#include "Input.h"
 using namespace std;
 
 void WithDarw::Print(Client MyClient)

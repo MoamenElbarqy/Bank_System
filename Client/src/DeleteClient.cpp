@@ -3,6 +3,7 @@
 #include "Input.h"
 #include "Client.h"
 #include "Global.h"
+
 using namespace std;
 
 class DeleteClient : private HeaderScreen

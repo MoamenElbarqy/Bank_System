@@ -1,5 +1,6 @@
 #include "DeleteUser.h"
 #include <iostream>
+#include "Input.h"
 using namespace std;
 
 void DeleteUser::Print(User MyUser)

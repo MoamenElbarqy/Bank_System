@@ -13,4 +13,4 @@ public:
     static void FindClientScreen();
 };
 
-#endif // FINDCLIENT_H
+#endif  FINDCLIENT_H

@@ -1,6 +1,6 @@
 #include <iostream>
 #include "AddClient.h"
-
+#include "Input.h"
 using namespace std;
 
 void AddClient::ReadClientInfo(Client &Client)

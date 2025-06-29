@@ -1,4 +1,4 @@
 #include "Global.h"
 
 User SystemUser;
-bool LockTheSystem; 
+bool LockTheSystem = false; 

@@ -1,16 +1,8 @@
 #ifndef TRANSACTIONS_H
 #define TRANSACTIONS_H
 
-#include <iomanip>
 #include "HeaderScreen.h"
-#include "Input.h"
-#include "Deposit.h"
-#include "Withdraw.h"
-#include "TotalBalances.h"
-#include "Transfer.h"
-#include "TransferLog.h"
-#include "Global.h"
-#include "User.h"
+
 using namespace std;
 
 class Transactions : private HeaderScreen
@@ -37,4 +29,4 @@ public:
 	static void ShowTransactionsScreen();
 };
 
-#endif // TRANSACTIONS_H
+#endif TRANSACTIONS_H

@@ -3,8 +3,8 @@
 
 #include "HeaderScreen.h"
 #include "Global.h"
-#include "../Client/Client.h"
-#include "../Misc/Input.h"
+#include "Client.h"
+#include "Input.h"
 using namespace std;
 
 class Deposit : private HeaderScreen
@@ -29,4 +29,4 @@ public:
     static void DepositClient();
 };
 
-#endif // DEPOSIT_H
+#endif DEPOSIT_H

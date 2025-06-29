@@ -5,8 +5,6 @@
 #include <vector>
 
 
-
-
 class Client : public Person
 {
 private:

@@ -1,5 +1,6 @@
 #include "FindUser.h"
 #include <iostream>
+#include "Input.h"
 using namespace std;
 
 void FindUser::Print(User MyUser)

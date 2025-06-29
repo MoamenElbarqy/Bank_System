@@ -1,6 +1,5 @@
-#include "Screens/LoginScreen.h"
-#include "Misc/Global.h"
-
+#include "Global.h"
+#include "LoginScreen.h"
 int main()
 {
 	do

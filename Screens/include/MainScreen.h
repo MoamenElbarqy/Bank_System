@@ -1,19 +1,8 @@
 #ifndef MAINSCREEN_H
 #define MAINSCREEN_H
 
-#include <iostream>
 #include "HeaderScreen.h"
-#include "ClientsList.h"
-#include "AddClient.h"
-#include "DeleteClient.h"
-#include "UpdateClient.h"
-#include "FindClient.h"
-#include "Transactions.h"
-#include "MangeUsers.h"
-#include "LoginLog.h"
-#include "CurrencyExchange.h"
-#include "Global.h"
-#include "Input.h"
+
 using namespace std;
 
 class MainScreen : private HeaderScreen
@@ -49,4 +38,4 @@ public:
     static void ShowMainMenueScreen();
 };
 
-#endif // MAINSCREEN_H
+#endif MAINSCREEN_H

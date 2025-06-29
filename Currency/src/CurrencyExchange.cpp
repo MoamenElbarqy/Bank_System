@@ -1,6 +1,12 @@
 #include "CurrencyExchange.h"
 #include <iostream>
 #include <iomanip>
+#include "CurrenciesList.h"
+#include "FindCurrency.h"
+#include "CurrencyExchange.h"
+#include "UpdateRate.h"
+#include "CurrencyCalculator.h"
+#include "Input.h"
 using namespace std;
 
 void CurrencyExchange::BackToCurrencyExchangeScreen()

@@ -11,4 +11,4 @@ public:
 	static void ShowUsersListScreen();
 };
 
-#endif // USERSLIST_H
+#endif USERSLIST_H

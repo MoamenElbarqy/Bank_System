@@ -9,4 +9,4 @@ public:
     static void ShowClientsListScreen();
 };
 
-#endif  CLIENTSLIST_H
+#endif CLIENTSLIST_H

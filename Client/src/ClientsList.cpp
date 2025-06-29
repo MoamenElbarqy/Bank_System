@@ -1,7 +1,9 @@
 #pragma once
 #include <iomanip>
 #include "Client.h"
-#include ".Global.h"
+#include "Global.h"
+#include "HeaderScreen.h"
+
 using namespace std;
 
 class ClientList : private HeaderScreen

@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <iomanip>
-#include "../Client/Client.h"
+#include "Client.h"
 using namespace std;
 
 void TotalBalacnes::TotalBalances()

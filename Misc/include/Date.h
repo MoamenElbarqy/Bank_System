@@ -12,4 +12,4 @@ public:
     static string current_time();
 };
 
-#endif // DATE_H
+#endif  DATE_H

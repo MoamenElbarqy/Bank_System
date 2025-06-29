@@ -1,5 +1,13 @@
-#include "Transactions.h"
 #include <iostream>
+#include "Transactions.h"
+#include "Input.h"
+#include "Deposit.h"
+#include "Withdraw.h"
+#include "TotalBalances.h"
+#include "Transfer.h"
+#include "TransferLog.h"
+#include "Global.h"
+#include "User.h"
 using namespace std;
 
 void Transactions::GoBackToTranactionsMenue()

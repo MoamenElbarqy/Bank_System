@@ -14,4 +14,4 @@ public:
 	static void AddNewUser();
 };
 
-#endif // ADDUSER_H
+#endif ADDUSER_H

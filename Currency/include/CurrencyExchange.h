@@ -23,4 +23,4 @@ public:
     static void ShowCurrencyExchangeScreen();
 };
 
-#endif // CURRENCYEXCHANGE_H
+#endif CURRENCYEXCHANGE_H

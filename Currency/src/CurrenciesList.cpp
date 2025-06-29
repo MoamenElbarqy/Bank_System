@@ -1,4 +1,4 @@
-#include "CurrenciesList.cpp"
+#include "CurrenciesList.h"
 
 void CurrenciesList::ShowListCurrenciesScreen()
 {

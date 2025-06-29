@@ -1,8 +1,8 @@
-#include "LoginLog.h"
 #include <iostream>
 #include <iomanip>
 #include <vector>
 #include <fstream>
+#include "LoginLog.h"
 using namespace std;
 
 vector<LoginLog::LoginData> LoginLog::LoadLoginRegisterFile()

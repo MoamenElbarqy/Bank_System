@@ -14,4 +14,4 @@ public:
 	static void Update();
 };
 
-#endif // UPDATEUSER_H
+#endif UPDATEUSER_H

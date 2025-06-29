@@ -10,7 +10,7 @@ class AddClient : private HeaderScreen
 private:
     Client newClient;
     static void ReadClientInfo(Client &Client);
-    static void void Print(Client MyClient);
+    static void Print(Client MyClient);
 
 public:
     static void AddNewClient();

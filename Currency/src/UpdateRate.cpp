@@ -1,5 +1,7 @@
 #include "UpdateRate.h"
 #include <iostream>
+#include "Input.h"
+
 using namespace std;
 
 void UpdateRate::PrintCurrency(Currency MyCurrency)

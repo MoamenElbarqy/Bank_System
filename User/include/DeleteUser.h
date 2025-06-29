@@ -13,4 +13,4 @@ public:
     static void Delete();
 };
 
-#endif // DELETEUSER_H
+#endif  DELETEUSER_H

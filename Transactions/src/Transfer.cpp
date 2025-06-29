@@ -2,8 +2,8 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include "../Misc/Date.h"
-#include "../Misc/Util.h"
+#include "Date.h"
+#include "Util.h"
 using namespace std;
 
 void Transfer::Print(Client MyClient)

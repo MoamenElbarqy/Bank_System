@@ -13,4 +13,4 @@ public:
 	static void Update();
 };
 
-#endif // UPDATECLIENT_H
+#endif  UPDATECLIENT_H

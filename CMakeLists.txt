@@ -6,17 +6,16 @@ set(CMAKE_CXX_STANDARD 17)
 
 # Include directories
 include_directories(
-    ${CMAKE_SOURCE_DIR}
-    ${CMAKE_SOURCE_DIR}/Client/include
-    ${CMAKE_SOURCE_DIR}/User/include
-    ${CMAKE_SOURCE_DIR}/Misc/include
-    ${CMAKE_SOURCE_DIR}/Screens/include
-    ${CMAKE_SOURCE_DIR}/Transactions/include
-    ${CMAKE_SOURCE_DIR}/Currency/include
+    "${CMAKE_CURRENT_SOURCE_DIR}/Client/include"
+    "${CMAKE_CURRENT_SOURCE_DIR}/User/include"
+    "${CMAKE_CURRENT_SOURCE_DIR}/Misc/include"
+    "${CMAKE_CURRENT_SOURCE_DIR}/Screens/include"
+    "${CMAKE_CURRENT_SOURCE_DIR}/Transactions/include"
+    "${CMAKE_CURRENT_SOURCE_DIR}/Currency/include"
 )
 
 add_executable(BankSystem main.cpp
-    # ملفات Client
+    # Client
     Client/src/AddClient.cpp
     Client/src/Client.cpp
     Client/src/ClientsList.cpp
@@ -24,7 +23,7 @@ add_executable(BankSystem main.cpp
     Client/src/FindClient.cpp
     Client/src/UpdateClient.cpp
 
-    # ملفات Currency
+    #  Currency
     Currency/src/CurrenciesList.cpp
     Currency/src/Currency.cpp
     Currency/src/CurrencyCalculator.cpp
@@ -32,7 +31,7 @@ add_executable(BankSystem main.cpp
     Currency/src/FindCurrency.cpp
     Currency/src/UpdateRate.cpp
 
-    # ملفات Misc
+    #  Misc
     Misc/src/Date.cpp
     Misc/src/Global.cpp
     Misc/src/Input.cpp
@@ -40,12 +39,12 @@ add_executable(BankSystem main.cpp
     Misc/src/Person.cpp
     Misc/src/Util.cpp
 
-    # ملفات Screens
+    #  Screens
     Screens/src/HeaderScreen.cpp
     Screens/src/LoginScreen.cpp
     Screens/src/MainScreen.cpp
 
-    # ملفات Transactions
+    #  Transactions
     Transactions/src/Deposit.cpp
     Transactions/src/TotalBalances.cpp
     Transactions/src/Transactions.cpp
@@ -53,13 +52,12 @@ add_executable(BankSystem main.cpp
     Transactions/src/TransferLog.cpp
     Transactions/src/Withdraw.cpp
 
-    # ملفات User
+    #  User
     User/src/AddUser.cpp
     User/src/DeleteUser.cpp
     User/src/FindUser.cpp
-    User/src/MangeUsers.cpp # ملاحظة: قد يكون هناك خطأ إملائي هنا، ربما "ManageUsers.cpp"
+    User/src/MangeUsers.cpp
     User/src/UpdateUser.cpp
     User/src/User.cpp
     User/src/UsersList.cpp
 )
-    )

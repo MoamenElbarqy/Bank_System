@@ -1,5 +1,6 @@
 #include "AddUser.h"
 #include <iostream>
+#include "Input.h"
 using namespace std;
 
 void AddUser::ReadUserInfo(User &User)

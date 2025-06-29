@@ -12,4 +12,4 @@ public:
 	static void ShowUpdateRateScreen();
 };
 
-#endif // UPDATERATE_H
+#endif UPDATERATE_H

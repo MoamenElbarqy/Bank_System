@@ -1,5 +1,6 @@
-#include "UpdateUser.h"
 #include <iostream>
+#include "Input.h"
+#include "UpdateUser.h"
 using namespace std;
 
 void UpdateUser::ReadUserInfo(User &User)

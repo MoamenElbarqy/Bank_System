@@ -1,6 +1,12 @@
 #include "MangeUsers.h"
 #include <iostream>
 #include <iomanip>
+#include "UsersList.h"
+#include "AddUser.h"
+#include "DeleteUser.h"
+#include "UpdateUser.h"
+#include "FindUser.h"
+#include "Input.h"
 using namespace std;
 
 void MangeUsers::GoBackToManageUsersMenue()

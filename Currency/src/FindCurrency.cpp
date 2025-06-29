@@ -1,5 +1,6 @@
 #include "FindCurrency.h"
 #include <iostream>
+#include "Input.h"
 using namespace std;
 
 void FindCurrencuey::Print(Currency MyCurrency)

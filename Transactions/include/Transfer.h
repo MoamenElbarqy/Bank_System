@@ -3,8 +3,8 @@
 
 #include "HeaderScreen.h"
 #include "Global.h"
-#include "../Misc/Input.h"
-#include "../Client/Client.h"
+#include "Input.h"
+#include "Client.h"
 using namespace std;
 
 class Transfer : private HeaderScreen
@@ -120,4 +120,4 @@ public:
 
 };
 
-#endif // TRANSFER_H
+#endif  TRANSFER_H
