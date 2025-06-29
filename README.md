@@ -20,12 +20,11 @@ Currencies Data is not up to date, But You Can Update its Rate in File Using The
 
 You May Have a Formatting Issues If You Run From Terminal, You Can Run The .exe file directly or From cmd
 
-[Formatting Issue Sample](https://github.com/user-attachments/assets/c609613b-3b05-437b-bdb3-a4827f5be9ec)
 
 
 ##  Installation & Usage
 
-The system requires These Files for storing data in the same directory:
+You should edit the files paths with your paths
 
 - `CurrenciesData.txt`  
 - `Users.txt`  
@@ -35,7 +34,6 @@ The system requires These Files for storing data in the same directory:
 
 Clone this repository or download the source files.
 
-main.cpp in your C++ development environment.
 
 Compile and run the program.
 
