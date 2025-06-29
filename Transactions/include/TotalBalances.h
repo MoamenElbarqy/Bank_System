@@ -11,4 +11,4 @@ public:
     static void TotalBalances();
 };
 
-#endif  TOTALBALANCES_H
+#endif  // TOTALBALANCES_H

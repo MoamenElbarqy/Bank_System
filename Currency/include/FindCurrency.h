@@ -13,4 +13,4 @@ public:
     static void ShowFindCurrencueyScreen();
 };
 
-#endif  FINDCURRENCY_H
+#endif  // FINDCURRENCY_H

@@ -29,4 +29,4 @@ public:
     static void ShowLoginRegisterScreen();
 };
 
-#endif  LOGINLOG_H
+#endif  // LOGINLOG_H

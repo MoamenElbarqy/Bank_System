@@ -15,4 +15,4 @@ public:
     static int ReadNumber();
 };
 
-#endif  INPUT_H
+#endif  // INPUT_H

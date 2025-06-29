@@ -120,4 +120,4 @@ public:
 
 };
 
-#endif  TRANSFER_H
+#endif  // TRANSFER_H

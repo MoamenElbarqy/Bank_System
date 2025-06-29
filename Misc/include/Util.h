@@ -16,5 +16,5 @@ public:
 	static string UpperAll(string str);
 };
 
-#endif  UTIL_H
+#endif  // UTIL_H
 

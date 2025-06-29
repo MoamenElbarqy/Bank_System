@@ -15,4 +15,4 @@ protected:
     static bool hasAccess(User::UsersPermission CurrentPermission);
 };
 
-#endif  HEADERSCREEN_H
+#endif  // HEADERSCREEN_H

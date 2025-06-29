@@ -97,4 +97,4 @@ public:
     }
 };
 
-#endif  TRANSFERLOG_H
+#endif  // TRANSFERLOG_H

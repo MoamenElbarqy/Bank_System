@@ -13,4 +13,4 @@ public:
 	static void WithdrawClient();
 };
 
-#endif  WITHDRAW_H
+#endif  // WITHDRAW_H

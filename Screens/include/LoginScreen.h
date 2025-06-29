@@ -12,4 +12,4 @@ public:
     static void ShowLoginScreen();
 };
 
-#endif  LOGINSCREEN_H
+#endif  // LOGINSCREEN_H

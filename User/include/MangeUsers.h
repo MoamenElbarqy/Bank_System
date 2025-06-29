@@ -28,4 +28,4 @@ public:
     static void ShowMangeUsersScreen();
 };
 
-#endif  MANAGEUSERS_H
+#endif  // MANAGEUSERS_H

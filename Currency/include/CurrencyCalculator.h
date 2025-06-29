@@ -11,4 +11,4 @@ public:
     static void ShowCurrencyCalculatorScreen();
 };
 
-#endif  CURRENCYCALCULATOR_H
+#endif  // CURRENCYCALCULATOR_H

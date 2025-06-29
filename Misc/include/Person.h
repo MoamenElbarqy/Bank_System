@@ -32,4 +32,4 @@ public:
 	string GetPhoneNumber();
 };
 
-#endif  PERSON_H
+#endif  // PERSON_H

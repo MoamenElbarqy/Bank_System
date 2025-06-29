@@ -6,4 +6,4 @@
 extern User SystemUser;
 extern bool LockTheSystem;
 
-#endif  GLOBAL_H
+#endif  // GLOBAL_H

@@ -13,4 +13,4 @@ public:
     static void FindUserScreen();
 };
 
-#endif  FINDUSER_H
+#endif  // FINDUSER_H

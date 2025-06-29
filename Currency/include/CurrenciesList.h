@@ -10,4 +10,4 @@ public:
     static void ShowListCurrenciesScreen();
 };
 
-#endif  CURRENCIESLIST_H
+#endif  // CURRENCIESLIST_H

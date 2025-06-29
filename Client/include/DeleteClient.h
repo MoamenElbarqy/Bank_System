@@ -12,4 +12,4 @@ public:
     static void Delete();
 };
 
-#endif  DELETECLIENT_H
+#endif  // DELETECLIENT_H
