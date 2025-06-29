@@ -1,75 +1,65 @@
-cmake_minimum_required(VERSION 3.10)
-project(BankSystem VERSION 1.0 LANGUAGES CXX)
+cmake_minimum_required(VERSION 3.20)
+project(BankSystem)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
-
-# Set output directories
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
 # Include directories
 include_directories(
     ${CMAKE_SOURCE_DIR}
-    ${CMAKE_SOURCE_DIR}/Client
-    ${CMAKE_SOURCE_DIR}/User
-    ${CMAKE_SOURCE_DIR}/Misc
-    ${CMAKE_SOURCE_DIR}/Screens
-    ${CMAKE_SOURCE_DIR}/Transactions
-    ${CMAKE_SOURCE_DIR}/Currency
+    ${CMAKE_SOURCE_DIR}/Client/include
+    ${CMAKE_SOURCE_DIR}/User/include
+    ${CMAKE_SOURCE_DIR}/Misc/include
+    ${CMAKE_SOURCE_DIR}/Screens/include
+    ${CMAKE_SOURCE_DIR}/Transactions/include
+    ${CMAKE_SOURCE_DIR}/Currency/include
 )
 
-# Source files
-set(SOURCES
-    main.cpp
+add_executable(BankSystem main.cpp
+    # ملفات Client
+    Client/src/AddClient.cpp
+    Client/src/Client.cpp
+    Client/src/ClientsList.cpp
+    Client/src/DeleteClient.cpp
+    Client/src/FindClient.cpp
+    Client/src/UpdateClient.cpp
+
+    # ملفات Currency
+    Currency/src/CurrenciesList.cpp
+    Currency/src/Currency.cpp
+    Currency/src/CurrencyCalculator.cpp
+    Currency/src/CurrencyExchange.cpp
+    Currency/src/FindCurrency.cpp
+    Currency/src/UpdateRate.cpp
+
+    # ملفات Misc
+    Misc/src/Date.cpp
+    Misc/src/Global.cpp
+    Misc/src/Input.cpp
+    Misc/src/LoginLog.cpp
+    Misc/src/Person.cpp
+    Misc/src/Util.cpp
+
+    # ملفات Screens
+    Screens/src/HeaderScreen.cpp
+    Screens/src/LoginScreen.cpp
+    Screens/src/MainScreen.cpp
+
+    # ملفات Transactions
+    Transactions/src/Deposit.cpp
+    Transactions/src/TotalBalances.cpp
+    Transactions/src/Transactions.cpp
+    Transactions/src/Transfer.cpp
+    Transactions/src/TransferLog.cpp
+    Transactions/src/Withdraw.cpp
+
+    # ملفات User
+    User/src/AddUser.cpp
+    User/src/DeleteUser.cpp
+    User/src/FindUser.cpp
+    User/src/MangeUsers.cpp # ملاحظة: قد يكون هناك خطأ إملائي هنا، ربما "ManageUsers.cpp"
+    User/src/UpdateUser.cpp
+    User/src/User.cpp
+    User/src/UsersList.cpp
 )
-
-# Header files
-file(GLOB_RECURSE HEADERS 
-    "*.h"
-    "Client/*.h"
-    "User/*.h"
-    "Misc/*.h"
-    "Screens/*.h"
-    "Transactions/*.h"
-    "Currency/*.h"
-)
-
-# Create executable
-add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
-
-# Set properties for IDE
-set_target_properties(${PROJECT_NAME} PROPERTIES
-    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}"
-    VS_DEBUGGER_WORKING_DIRECTORY "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}"
-)
-
-# Copy text files to build directory
-file(COPY ${CMAKE_SOURCE_DIR}/TextFiles DESTINATION ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
-
-# Enable testing
-enable_testing()
-
-# IDE-specific settings
-if(MSVC)
-    # Visual Studio specific settings
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W4")
-else()
-    # GCC/Clang specific settings
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic")
-endif()
-
-# Add install rules
-install(TARGETS ${PROJECT_NAME}
-    RUNTIME DESTINATION bin
-    LIBRARY DESTINATION lib
-    ARCHIVE DESTINATION lib
-)
-
-install(DIRECTORY ${CMAKE_SOURCE_DIR}/TextFiles
-    DESTINATION ${CMAKE_INSTALL_PREFIX}
-    FILES_MATCHING PATTERN "*.txt"
-) 
+    )
