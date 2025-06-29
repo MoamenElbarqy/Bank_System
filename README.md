@@ -5,25 +5,25 @@ This file-based project simulates real-world banking operations with a strong fo
 The system ensures that users without the required permissions cannot perform restricted operations.  
 ##  Notes
 
-🔹Defualt user to login : 
+Defualt user to login : 
 ~~~
 Username : User1
 
 Password : 1234
 ~~~
 
-🔹All Phone Numbers And Emails are fake 
+All Phone Numbers And Emails are fake 
 
-🔹The System Prevent You From Deleting The User You Have Entered With, No Meaning For Deleting Myself
+The System Prevent You From Deleting The User You Have Entered With, No Meaning For Deleting Myself
 
-🔹Currencies Data is not up to date, But You Can Update its Rate in File Using The System
+Currencies Data is not up to date, But You Can Update its Rate in File Using The System
 
-🔹You May Have a Formatting Issues If You Run From Terminal, You Can Run The .exe file directly or From cmd
+You May Have a Formatting Issues If You Run From Terminal, You Can Run The .exe file directly or From cmd
 
-- isuue sample :[Formatting Issue Sample Screen Shot](https://github.com/user-attachments/assets/c609613b-3b05-437b-bdb3-a4827f5be9ec)
+[Formatting Issue Sample](https://github.com/user-attachments/assets/c609613b-3b05-437b-bdb3-a4827f5be9ec)
 
 
-## 📌 Installation & Usage
+##  Installation & Usage
 
 The system requires These Files for storing data in the same directory:
 
@@ -40,22 +40,22 @@ main.cpp in your C++ development environment.
 Compile and run the program.
 
 
-## 📌 Features  
-Testing Features -> (https://drive.google.com/file/d/1b_9j9B_1EYfWbmuc04tWoWGSClYgrmi_/view?usp=drive_link)
-### 🔹 Client Management  
+##  Features  
+[Click here to view the demo](https://drive.google.com/file/d/1b_9j9B_1EYfWbmuc04tWoWGSClYgrmi_/view?usp=drive_link)
+###  Client Management  
 - View all registered clients.  
 - Add, delete, update, and search for clients.  
 
-### 🔹 User Management  
+###  User Management  
 - Manage system users with different access levels.  
 - Add, delete, update, and list users.  
 
-### 🔹 Transaction System  
+###  Transaction System  
 - Deposit and withdraw funds.  
 - Transfer money between accounts.  
 - View transaction history and total balances.  
 
-### 🔹 Currency Exchange Operations  
+###  Currency Exchange Operations  
 - Display a list of currencies from different countries.  
 - Search for a specific currency by its code or country name.  
 - Calculator for Converting Currencies (e.g., I have 1000 EGP and want to know how many Dollars or Euros that equals)
@@ -67,9 +67,9 @@ Testing Features -> (https://drive.google.com/file/d/1b_9j9B_1EYfWbmuc04tWoWGSCl
 - **Transaction Logging:** Records money transfers, including sender and receiver details, transfer time and date, and account balances before and after the transaction.  
 
 
-## 📌 User Interface  
+##  User Interface  
 
-### 🔹 Login Menu  
+###  Login Menu  
 
 The login menu looks like this:  
 
@@ -81,7 +81,7 @@ The login menu looks like this:
  Enter Password: ________
 -------------------------------
 ~~~
-## 📌 Main Menu
+##  Main Menu
 
 Once logged in, users are greeted with the Main Menu, which looks like this:
 ~~~
@@ -101,7 +101,7 @@ Once logged in, users are greeted with the Main Menu, which looks like this:
 ===================================
 ~~~
 
-## 📌Transactions Menue
+## Transactions Menue
 
 Transactions Menue looks like this:
 ~~~
@@ -116,7 +116,7 @@ Transactions Menue looks like this:
 [6] Main Menu.  
 ===================================
 ~~~
-## 📌Currency Exchange Menue
+## Currency Exchange Menue
 
 Currency Exchange Menue looks like this:
 
