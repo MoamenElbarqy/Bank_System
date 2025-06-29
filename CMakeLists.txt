@@ -14,7 +14,8 @@ include_directories(
     "${CMAKE_CURRENT_SOURCE_DIR}/Currency/include"
 )
 
-add_executable(BankSystem main.cpp
+add_executable(BankSystem
+     main.cpp
     # Client
     Client/src/AddClient.cpp
     Client/src/Client.cpp
