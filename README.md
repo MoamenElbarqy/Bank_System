@@ -59,7 +59,7 @@ Compile and run the program.
 - Calculator for Converting Currencies (e.g., I have 1000 EGP and want to know how many Dollars or Euros that equals)
 - Update exchange rates (relative to the US dollar).  
 
-### 🔹 Security & Logging  
+###  Security & Logging  
 - **System Will Close After 3 Failed Login Attempts**  
 - **Login Activity Tracking:** Stores login details, including the user, login time, and date in text files.  
 - **Transaction Logging:** Records money transfers, including sender and receiver details, transfer time and date, and account balances before and after the transaction.  
